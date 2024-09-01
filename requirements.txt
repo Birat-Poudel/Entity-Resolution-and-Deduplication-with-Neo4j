@@ -1,0 +1,5 @@
+pandas 
+sqlalchemy
+neo4j
+neo4j-driver
+python-dotenv
