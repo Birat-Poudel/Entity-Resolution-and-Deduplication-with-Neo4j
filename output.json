@@ -1,0 +1,97 @@
+﻿[
+  {
+    "name": "Julie Davis",
+    "email": "julie.davis1@example.com",
+    "phone": "555-226-1436"
+  },
+  {
+    "name": "James Johnson",
+    "email": "james.johnson2@sample.org",
+    "phone": "555-629-6663"
+  },
+  {
+    "name": "Jane Wilson",
+    "email": "jane.wilson@example.com",
+    "phone": "555-730-5206"
+  },
+  {
+    "name": "Judy Davis",
+    "email": "judy.davis1@example.com",
+    "phone": "555-569-9521"
+  },
+  {
+    "name": "Jill Taylor",
+    "email": "jill.taylor@example.com",
+    "phone": "555-947-1168"
+  },
+  {
+    "name": "J. Smith",
+    "email": "john.smith1@example.com",
+    "phone": "555-123-4567"
+  },
+  {
+    "name": "Jake Taylor",
+    "email": "jake.taylor2@example.com",
+    "phone": "555-665-1861"
+  },
+  {
+    "name": "James Davis",
+    "email": "james.davis1@example.com",
+    "phone": "555-816-6202"
+  },
+  {
+    "name": "Jim Brown",
+    "email": "jim.brown2@sample.org",
+    "phone": "555-743-5767"
+  },
+  {
+    "name": "Julie Brown",
+    "email": "julie.brown1@example.com",
+    "phone": "555-589-2116"
+  },
+  {
+    "name": "Jane Garcia",
+    "email": "jane.garcia1@sample.org",
+    "phone": "555-903-5955"
+  },
+  {
+    "name": "Jill Martinez",
+    "email": "jill.martinez2@test.com",
+    "phone": "555-748-8358"
+  },
+  {
+    "name": "Jim Davis",
+    "email": "jim.davis@sample.org",
+    "phone": "555-640-6135"
+  },
+  {
+    "name": "Judy Smith",
+    "email": "judy.smith@example.com",
+    "phone": "555-280-3933"
+  },
+  {
+    "name": "J. Doe",
+    "email": "jane.doe1@test.com",
+    "phone": "555-987-6543"
+  },
+  {
+    "name": "Jake Doe",
+    "email": "jake.doe@sample.org",
+    "phone": "555-253-6529"
+  },
+  {
+    "name": "Jim Johnson",
+    "email": "jim.johnson1@sample.org",
+    "phone": "555-830-3017"
+  },
+  {
+    "name": "Julie Miller",
+    "email": "julie.miller2@sample.org",
+    "phone": "555-813-4452"
+  },
+  {
+    "name": "Jen Smith",
+    "email": "jen.smith@sample.org",
+    "phone": "555-731-2129"
+  }
+]
