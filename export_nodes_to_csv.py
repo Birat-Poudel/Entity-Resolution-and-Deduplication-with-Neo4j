@@ -4,23 +4,16 @@ import csv
 # Uncomment the code when required for testing scripts independently.
 # driver = connect_database()
 
-def export_nodes_to_csv(driver, filename):
-    query = """
-    MATCH (p:Person)
-    RETURN p.name AS name, p.email AS email, p.phone AS phone
-    """
+def export_nodes_to_csv(result, filename):
     
-    with driver.session() as session:
-        result = session.run(query)
-        
-        with open(filename, 'w', newline='') as csvfile:
-            fieldnames = ['name', 'email', 'phone']
-            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    with open(filename, 'w', newline='') as csvfile:
+        fieldnames = ['name', 'email', 'phone']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
 
-            writer.writeheader()
-            for record in result:
-                row = {field: record[field] for field in fieldnames}
-                writer.writerow(row)
+        for record in result:
+            row = {field: record[field] for field in fieldnames}
+            writer.writerow(row)
 
 # Uncomment the code when required for testing scripts independently.
 

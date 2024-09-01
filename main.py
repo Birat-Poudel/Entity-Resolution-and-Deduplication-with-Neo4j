@@ -7,8 +7,8 @@ driver = connect_database()
 
 if __name__ == "__main__":
     try:
-        load_and_process_data(driver)
-        export_nodes_to_csv(driver, 'exported_nodes.csv')
+        result = load_and_process_data(driver)
+        export_nodes_to_csv(result, 'exported_nodes.csv')
         csv_to_sql()
     finally:
         driver.close()

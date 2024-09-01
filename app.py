@@ -25,7 +25,7 @@ def load_and_process_data(driver):
         session.run(
             """
             CALL gds.graph.project(
-              'GraphEmployee3',
+              'GraphEmployee8',
               ['Person'],
               ['LIVES_AT'],
               { relationshipProperties: ['strength'] }
@@ -53,6 +53,15 @@ def load_and_process_data(driver):
             RETURN node AS mergedPerson, count(*) AS mergedPersonCount
             """
         )
+
+        result = session.run(
+            """
+            MATCH (p:Person)
+            RETURN p.name AS name, p.email AS email, p.phone AS phone
+            """
+        )
+        return [record for record in result]
+    
 
 # Uncomment the code when required for testing scripts independently.
 
